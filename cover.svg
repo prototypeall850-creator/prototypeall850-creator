@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img">
+  <!-- 
+    ============================================
+    GITHUB PROFILE COVER - GAMPANG DIEDIT
+    Cara edit cepat:
+    1. Ganti NAMA, ROLE, DESKRIPSI di bawah
+    2. Ganti warna di <defs> kalau mau tema lain
+    3. Upload file ini + README.md ke repo: username/username
+    ============================================
+  -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#A5F3FC"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363D" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect x="830" y="60" width="380" height="300" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <circle cx="200" cy="80" r="260" fill="url(#glowPurple)"/>
+  <circle cx="1100" cy="360" r="280" fill="url(#glowCyan)"/>
+  <circle cx="640" cy="420" r="180" fill="url(#glowPurple)" opacity="0.6"/>
+
+  <!-- TOP ACCENT LINE -->
+  <rect x="0" y="0" width="1280" height="6" fill="url(#accent)"/>
+  <rect x="0" y="414" width="1280" height="6" fill="url(#accent)" opacity="0.9"/>
+
+  <!-- LEFT: TEXT CONTENT -->
+  <!-- EDIT: badge kecil di atas -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="70" y="65" width="210" height="34" rx="17" fill="none" stroke="#06B6D4" stroke-width="1.5" opacity="0.9"/>
+    <circle cx="92" cy="82" r="6" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="106" y="88" font-size="15" font-weight="600" fill="#E6EDF3" letter-spacing="1">● OPEN TO WORK</text>
+
+    <!-- EDIT: NAMA LO -->
+    <text x="68" y="155" font-size="62" font-weight="800" fill="url(#titleGrad)">Hi, I'm NAMA KAMU 👋</text>
+
+    <!-- EDIT: ROLE LO -->
+    <text x="70" y="195" font-size="26" font-weight="700" fill="#06B6D4">Fullstack Developer | UI Enthusiast</text>
+
+    <!-- EDIT: DESKRIPSI LO -->
+    <text x="70" y="228" font-size="17" fill="#8B949E">Gua ngoding web &amp; mobile, suka bikin UI bersih,</text>
+    <text x="70" y="252" font-size="17" fill="#8B949E">eksperimen AI, dan open-source.</text>
+
+    <!-- PILLS / TECH -->
+    <g font-size="14" font-weight="700">
+      <rect x="70" y="275" width="110" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
+      <text x="88" y="298" fill="#E6EDF3">⚛ React</text>
+
+      <rect x="190" y="275" width="130" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
+      <text x="208" y="298" fill="#E6EDF3">▲ Next.js</text>
+
+      <rect x="330" y="275" width="140" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
+      <text x="348" y="298" fill="#E6EDF3">🐳 TypeScript</text>
+
+      <rect x="480" y="275" width="110" height="36" rx="10" fill="url(#accent)"/>
+      <text x="498" y="298" fill="#0d1117">✦ Hire Me</text>
+    </g>
+
+    <text x="70" y="348" font-size="14" fill="#6E7681" letter-spacing="0.5">📍 Indonesia • ✉️ email@kamu.com • 🔗 linktree / portfolio</text>
+  </g>
+
+  <!-- RIGHT: CODE CARD -->
+  <g>
+    <rect x="830" y="60" width="380" height="300" rx="20" fill="#0d1117" stroke="#30363D" stroke-width="1.5"/>
+    <rect x="830" y="60" width="380" height="48" rx="20" fill="#161B22"/>
+    <rect x="830" y="90" width="380" height="18" fill="#161B22"/>
+    <circle cx="856" cy="84" r="7" fill="#FF5F56"/>
+    <circle cx="878" cy="84" r="7" fill="#FFBD2E"/>
+    <circle cx="900" cy="84" r="7" fill="#27C93F"/>
+    <text x="1020" y="89" font-family="monospace" font-size="13" fill="#6E7681">~/profile.js</text>
+
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="15">
+      <text x="855" y="145"><tspan fill="#FF7B72">const</tspan><tspan fill="#E6EDF3"> dev = {</tspan></text>
+      <text x="875" y="172"><tspan fill="#79C0FF">name</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#A5D6FF">'Nama Kamu'</tspan><tspan fill="#E6EDF3">,</tspan></text>
+      <text x="875" y="199"><tspan fill="#79C0FF">stack</tspan><tspan fill="#E6EDF3">: [</tspan><tspan fill="#A5D6FF">'React', 'Next', 'Node'</tspan><tspan fill="#E6EDF3">],</tspan></text>
+      <text x="875" y="226"><tspan fill="#79C0FF">focus</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#A5D6FF">'UI × AI × DX'</tspan><tspan fill="#E6EDF3">,</tspan></text>
+      <text x="875" y="253"><tspan fill="#79C0FF">coffee</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#FFA657">true</tspan><tspan fill="#E6EDF3">,</tspan></text>
+      <text x="855" y="280" fill="#E6EDF3">};</text>
+      <rect x="855" y="295" width="140" height="28" rx="8" fill="none" stroke="#06B6D4" stroke-width="1.2"/>
+      <text x="867" y="314" font-size="13" fill="#06B6D4">▸ npm run hire-me</text>
+    </g>
+
+    <!-- floating badges -->
+    <g font-family="Inter, Arial" font-size="13" font-weight="700">
+      <rect x="790" y="150" width="90" height="30" rx="15" fill="#7C3AED"/>
+      <text x="804" y="170" fill="white">★ 5.0</text>
+      <rect x="1150" y="250" width="110" height="30" rx="15" fill="#22C55E"/>
+      <text x="1162" y="270" fill="#0d1117">● Online</text>
+    </g>
+  </g>
+
+  <!-- visitor deco bottom left dots -->
+  <g fill="#30363D">
+    <circle cx="70" cy="380" r="3"/><circle cx="85" cy="380" r="3"/><circle cx="100" cy="380" r="3"/><circle cx="115" cy="380" r="3"/>
+  </g>
+</svg>

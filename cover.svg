@@ -60,10 +60,10 @@
     <text x="106" y="88" font-size="15" font-weight="600" fill="#E6EDF3" letter-spacing="1">● OPEN TO WORK</text>
 
     <!-- EDIT: NAMA LO -->
-    <text x="68" y="155" font-size="62" font-weight="800" fill="url(#titleGrad)">Halo, Aku Proto 👋</text>
+    <text x="68" y="155" font-size="62" font-weight="800" fill="url(#titleGrad)">Halo, Gua Proto 👋</text>
 
     <!-- EDIT: ROLE LO -->
-    <text x="70" y="195" font-size="26" font-weight="700" fill="#06B6D4">Fullstack Developer | UI Enthusiast</text>
+    <text x="70" y="195" font-size="26" font-weight="700" fill="#06B6D4">Gabut</text>
 
     <!-- EDIT: DESKRIPSI LO -->
     <text x="70" y="228" font-size="17" fill="#8B949E">Gua ngoding web &amp; mobile, suka bikin UI bersih,</text>
@@ -72,19 +72,19 @@
     <!-- PILLS / TECH -->
     <g font-size="14" font-weight="700">
       <rect x="70" y="275" width="110" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
-      <text x="88" y="298" fill="#E6EDF3">⚛ React</text>
+      <text x="88" y="298" fill="#E6EDF3">JavaScript</text>
 
-      <rect x="190" y="275" width="130" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
-      <text x="208" y="298" fill="#E6EDF3">▲ Next.js</text>
+      <rect x="190" y="275" width="100" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
+      <text x="208" y="298" fill="#E6EDF3">Next.js</text>
 
-      <rect x="330" y="275" width="140" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
-      <text x="348" y="298" fill="#E6EDF3">🐳 TypeScript</text>
+      <rect x="300" y="275" width="100" height="36" rx="10" fill="#21262D" stroke="#30363D"/>
+      <text x="348" y="298" fill="#E6EDF3">TypeScript</text>
 
       <rect x="480" y="275" width="110" height="36" rx="10" fill="url(#accent)"/>
       <text x="498" y="298" fill="#0d1117">✦ Hire Me</text>
     </g>
 
-    <text x="70" y="348" font-size="14" fill="#6E7681" letter-spacing="0.5">📍 Indonesia • ✉️ email@kamu.com • 🔗 linktree / portfolio</text>
+    <text x="70" y="348" font-size="14" fill="#6E7681" letter-spacing="0.5">📍 Indonesia • ✉️ prototypeall850@gmail.com • 🔗 linktree / portfolio</text>
   </g>
 
   <!-- RIGHT: CODE CARD -->
@@ -99,8 +99,8 @@
 
     <g font-family="JetBrains Mono, Consolas, monospace" font-size="15">
       <text x="855" y="145"><tspan fill="#FF7B72">const</tspan><tspan fill="#E6EDF3"> dev = {</tspan></text>
-      <text x="875" y="172"><tspan fill="#79C0FF">name</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#A5D6FF">'Nama Kamu'</tspan><tspan fill="#E6EDF3">,</tspan></text>
-      <text x="875" y="199"><tspan fill="#79C0FF">stack</tspan><tspan fill="#E6EDF3">: [</tspan><tspan fill="#A5D6FF">'React', 'Next', 'Node'</tspan><tspan fill="#E6EDF3">],</tspan></text>
+      <text x="875" y="172"><tspan fill="#79C0FF">name</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#A5D6FF">'Proto'</tspan><tspan fill="#E6EDF3">,</tspan></text>
+      <text x="875" y="199"><tspan fill="#79C0FF">stack</tspan><tspan fill="#E6EDF3">: [</tspan><tspan fill="#A5D6FF">'Js', 'Next', 'Ts'</tspan><tspan fill="#E6EDF3">],</tspan></text>
       <text x="875" y="226"><tspan fill="#79C0FF">focus</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#A5D6FF">'UI × AI × DX'</tspan><tspan fill="#E6EDF3">,</tspan></text>
       <text x="875" y="253"><tspan fill="#79C0FF">coffee</tspan><tspan fill="#E6EDF3">: </tspan><tspan fill="#FFA657">true</tspan><tspan fill="#E6EDF3">,</tspan></text>
       <text x="855" y="280" fill="#E6EDF3">};</text>

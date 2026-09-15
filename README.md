@@ -73,6 +73,4 @@ masih belajar
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20&height=120&section=footer&text=&fontSize=0" width="100%" />
-  <br />
-  <i>⭐ Dari <a href="https://github.com/prototypeall850-creator">Proto</a> — thanks udah mampir!</i>
 </p>

@@ -60,7 +60,7 @@
     <text x="106" y="88" font-size="15" font-weight="600" fill="#E6EDF3" letter-spacing="1">● OPEN TO WORK</text>
 
     <!-- EDIT: NAMA LO -->
-    <text x="68" y="155" font-size="62" font-weight="800" fill="url(#titleGrad)">Hi, I'm NAMA KAMU 👋</text>
+    <text x="68" y="155" font-size="62" font-weight="800" fill="url(#titleGrad)">Halo, Aku Proto 👋</text>
 
     <!-- EDIT: ROLE LO -->
     <text x="70" y="195" font-size="26" font-weight="700" fill="#06B6D4">Fullstack Developer | UI Enthusiast</text>
